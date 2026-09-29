@@ -1,0 +1,24 @@
+{
+  "name": "bloomora-backend",
+  "version": "1.0.0",
+  "description": "Bloomora Flower E-Commerce REST API Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node data/seed.js"
+  },
+  "keywords": ["mern", "express", "mongodb", "flower-ecommerce"],
+  "author": "Bloomora",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
